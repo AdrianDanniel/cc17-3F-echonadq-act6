@@ -38,18 +38,18 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:layout_marginBottom="8dp"
-                android:textStyle="bold"
                 android:text="yes"
+                android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="25dp"
-                android:textAlignment="center"/>
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/pic"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/d1" />
+                android:src="@drawable/Day1" />
 
             <TextView
                 android:id="@+id/desc"
